@@ -1,0 +1,13 @@
+# liberaries
+streamlit
+google-generativeai
+python-dotenv
+
+langchain
+langchain_groq
+langchain-text-splitters
+langchain-chains
+langchain-core
+langchain-community
+faiss-cpu
+python-dotenv
