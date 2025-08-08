@@ -10,7 +10,7 @@ pip install langchain langchain-community pypdf
 
 
 Enable  Generative Language API services and create credentials
-client ID:   181448993067-j0upbr5fmueloiu86ogl8ect1k8fo491.apps.googleusercontent.com
+
 
 
 
