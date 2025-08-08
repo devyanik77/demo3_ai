@@ -1,0 +1,37 @@
+conda create -p venv python=3.10 -y
+conda activate venv/ 
+
+pip install -r requirements.txt
+
+npm install @langchain/community faiss-node
+pip install langchain-groq
+pip install langchain-google-genai
+pip install langchain langchain-community pypdf
+
+
+Enable  Generative Language API services and create credentials
+client ID:   181448993067-j0upbr5fmueloiu86ogl8ect1k8fo491.apps.googleusercontent.com
+
+
+
+
+sample questions and answers:
+Q1. What is the main feature demonstrated by the “PDF Bookmark Sample”?
+A1. The sample demonstrates how to create primary and secondary bookmarks in a PDF file using Accelio Present Central 5.4 and Accelio Present Output Designer 5.4.
+
+Q2. What does the sample data file contain?
+A2. The sample data file contains eight separate records, each with four distinct fields:
+
+trans_date (Transaction date)
+description (Description for the item)
+trans_type (Type of transaction)
+trans_amount (Transaction amount)
+
+Q3. What are the three bookmark sections included in the example bookmark file?
+A3.
+Invoices by Date – Sorted ascending by transaction date.
+Invoices by Item Type – Sorted ascending by transaction type.
+Invoices by Transaction Amount – Sorted descending by transaction amount.
+
+Q4. How can you display bookmarks in Adobe Acrobat Reader?
+A4. You can display bookmarks by clicking Window > Show Bookmarks in Adobe Acrobat Reader. This will show the bookmarks pane on the left side.
